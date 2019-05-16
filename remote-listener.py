@@ -14,6 +14,9 @@ for event in device.read_loop():
     if event.type == evdev.ecodes.EV_KEY and event.value == down:
         # print(evdev.categorize(event))
         key = evdev.ecodes.KEY[event.code]
+
+        # The mute key is special since it will produce an array of keys
+        if event.code == 113: key = 'KEY_MUTE'
         print(key)
         payload = json.dumps({
             "sec": event.sec,
