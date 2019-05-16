@@ -14,6 +14,15 @@ https://www.raspberrypi.org/forums/viewtopic.php?p=919463#p919463
 
 ## Ideas
 
-- Add a mode for the mac
-- Mute the mac as well when in the main home mode
-- Read out the current title from the RX
+- [ ] Tell the time
+- [ ] Mute the mac as well when in the main home mode
+- [ ] Read out the current title from the RX
+- [ ] Bookmark any given RP song
+- [ ] Replay the Godfatherphones messages
+- [ ] Start the radio
+- [ ] Record the Godfahterphone
+- [ ] Read a daily quote
+- [ ] Start the piano
+- [x] Volume up 
+- [x] Mute the Hi-Fi system
+- [x] Ring the Bell 
