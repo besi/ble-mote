@@ -4,6 +4,8 @@ import evdev
 import paho.mqtt.publish as publish
 
 device = evdev.InputDevice('/dev/input/event1')
+if 'lirc' in device.name:
+  device = evdev.InputDevice('/dev/input/event0')
 print(device)
 
 down = 1
